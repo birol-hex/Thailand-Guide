@@ -12,12 +12,22 @@ body {
     font-size: 50px;
     margin: 0px;
     font-family: "Kanit";
+    text-shadow:
+        -1px -1px 1px rgb(0, 126, 88),
+        1px -1px 1px rgb(0, 126, 88),
+        1px 1px 1px rgb(0, 126, 88),
+        -1px 1px 1px rgb(0, 126, 88);
 }
-#name {
+#web_designer {
     font-size: 13px;
     margin: 0px;
-    color: cyan;
+    color: rgb(0, 197, 197);
     font-family: "Dosis";
+    text-shadow:
+        -1px -1px 1px rgb(0, 131, 131),
+        1px -1px 1px rgb(0, 131, 131),
+        1px 1px 1px rgb(0, 131, 131),
+        -1px 1px 1px rgb(0, 131, 131);
 }
 li::before {
     content: "•";
@@ -33,9 +43,10 @@ ul {
     padding: 0;
     margin: 0;
 }
-#list {
-    color: blue;
+#release_notes {
+    color: rgb(0, 110, 255);
     font-family: "Dosis";
+    font-size: 18px;
 }
 #footer {
     font-size: 13px;
