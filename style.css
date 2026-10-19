@@ -12,29 +12,39 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-#cool_pic {
+#thumbnail {
     border: double #0000ff80 5px;
 }
-.pic_title {
+.picture_title {
     color: red;
     font-size: 20px;
     font-family: "Cabin";
 }
-#map_pic {
+#picture_of_map {
     border: double #0df2c9 5px;
     margin-bottom: 10px;
 }
-#name {
+#web_designer {
     font-size: 13px;
     margin: 0px;
-    color: cyan;
+    color: rgb(0, 197, 197);
     font-family: "Dosis";
+    text-shadow:
+        -1px -1px 1px rgb(0, 131, 131),
+        1px -1px 1px rgb(0, 131, 131),
+        1px 1px 1px rgb(0, 131, 131),
+        -1px 1px 1px rgb(0, 131, 131);
 }
 #title {
     color: #00ffb4;
     font-size: 50px;
     margin: 0px;
     font-family: "Kanit";
+    text-shadow:
+        -1px -1px 1px rgb(0, 126, 88),
+        1px -1px 1px rgb(0, 126, 88),
+        1px 1px 1px rgb(0, 126, 88),
+        -1px 1px 1px rgb(0, 126, 88);
 }
 #contents_title {
     font-size: 30px;
@@ -47,7 +57,7 @@ img {
     margin: 4px;
     font-family: "Dosis";
 }
-#contents_line {
+#contents_separator {
     color: yellow;
 }
 .chapter_title {
@@ -69,7 +79,7 @@ img {
     margin-top: 30px;
     font-family: "IBM Plex Mono";
 }
-#wat_arun_pic {
+#wat_arun_picture {
     border: double 5px blue;
 }
 ul {
@@ -86,33 +96,34 @@ li::before {
     position: relative;
     top: 1px;
 }
-#list {
+#fun_facts {
     color: blue;
     font-family: "Dosis";
 }
-#water_guns {
+#songkran_festival_picture {
     border: double dodgerblue 4px;
     margin-bottom: 5px;
 }
-#land {
+#thailand_landscape {
     border: double #3ca2ff 5px;
     margin-bottom: 5px;
 }
-#food_pic {
+#pad_thai_picture {
     border: double red 5px;
     margin-bottom: 10px;
 }
 .link {
     color: red;
+    font-size: 16px;
 }
 .about_link {
     font-family: "Dosis";
     color: #0e56dd;
 }
-.about-subtitle {
+.about-me_main_portion {
     font-family: "Montserrat";
     color: #0e56dd;
-    font-size: 12px;
+    font-size: 14px;
 }
 #about {
     color: #0e56dd;
